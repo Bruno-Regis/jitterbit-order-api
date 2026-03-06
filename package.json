@@ -1,0 +1,34 @@
+{
+  "name": "jitterbit-order-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Regis/jitterbit-order-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno-Regis/jitterbit-order-api/issues"
+  },
+  "homepage": "https://github.com/Bruno-Regis/jitterbit-order-api#readme",
+  "dependencies": {
+    "@prisma/client": "^7.4.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.4.2"
+  }
+}
