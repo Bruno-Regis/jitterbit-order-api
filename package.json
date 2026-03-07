@@ -1,8 +1,8 @@
 {
   "name": "jitterbit-order-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API para gerenciamento de pedidos - Desafio Jitterbit",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
@@ -22,13 +22,15 @@
   },
   "homepage": "https://github.com/Bruno-Regis/jitterbit-order-api#readme",
   "dependencies": {
-    "@prisma/client": "^7.4.2",
+    "@prisma/client": "^5.22.0",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "prisma": "^5.22.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
-    "prisma": "^7.4.2"
+    "nodemon": "^3.1.14"
   }
 }
