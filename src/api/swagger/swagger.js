@@ -18,6 +18,15 @@ const options = {
       },
     ],
     components: {
+      securitySchemes: {
+        // Configuração do esquema de autenticação JWT
+        bearerAuth: {
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT",
+          description: "Informe o token JWT obtido em POST /auth/login",
+        },
+      },
       schemas: {
         // Schema do body de entrada (português — como o cliente envia)
         OrderInput: {
@@ -106,6 +115,8 @@ const options = {
         },
       },
     },
+    // Aplica autenticação JWT globalmente em todas as rotas
+    security: [{ bearerAuth: [] }],
   },
   // Onde o swagger-jsdoc vai procurar as anotações dos endpoints
   apis: ['./src/api/routes/*.js'],
