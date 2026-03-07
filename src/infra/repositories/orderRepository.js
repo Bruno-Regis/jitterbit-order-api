@@ -1,4 +1,4 @@
-const prisma = require("../../../utils/prisma");
+const prisma = require("../utils/prisma");
 
 // função para criar um pedido, utilizando o prisma para inserir os dados no banco de dados
 const create = async (order) => {
