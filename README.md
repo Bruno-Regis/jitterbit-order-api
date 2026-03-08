@@ -4,7 +4,9 @@ API REST para gerenciamento de pedidos, desenvolvida como parte do processo sele
 
 ## 📽️ Demonstração
 
-> 🔗 Link do vídeo em breve
+[![Demonstração da API](https://img.youtube.com/vi/I3EkC5Yh9WA/0.jpg)](https://youtu.be/I3EkC5Yh9WA)
+
+> 🔗 https://www.youtube.com/watch?v=I3EkC5Yh9WA
 
 ---
 
